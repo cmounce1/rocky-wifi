@@ -1,0 +1,45 @@
+<link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans" rel="stylesheet">
+<style media="screen">
+body{font-family: 'Open Sans', sans-serif;margin:0;padding:0;}
+h1{font-size: 1.25em;text-align: center;}
+p{font-family: 'Open Sans';font-size: .75em;}
+.wrap{padding: 0 3rem;}
+.flex-daddy{display: flex;flex-flow: row wrap;justify-content: center;align-content: center;}
+aside{width:30%;min-height: 100vh;display: inherit;justify-items: center;align-items: center;background: #f8f8f8;}
+aside img{margin: auto;display: block;width:70px;height: auto;}
+main{width:70%;height: 100vh;display: block;top:0;bottom:0;overflow: hidden;}
+main video{min-width: 100%;min-height: 100%;width: auto;height: auto;position: relative;left: -60%;}
+input{display: block;width: 100%;margin: 1rem 0;height: 2.25rem;border: solid 1px #ccc;padding:.5rem;}
+label{font-family: 'Open Sans';font-size: .75em;}
+button{border-radius: none;background: rgb(157,89,24);background: linear-gradient(45deg, rgba(157,89,24,1) 0%, rgba(213,147,83,1) 100%);border: none;padding: .75rem 5rem;color: #fff;text-transform: uppercase;letter-spacing: 1px;margin: 2rem auto;display: block;cursor:pointer;}
+#terms{width:15px;margin: 0;height: auto;display: initial;}
+
+@media screen and (max-width:960px) {
+  main{display: none;}
+  aside{width:100%;}
+  .wrap{padding: 0 2rem;}
+}
+</style>
+<div class="flex-daddy">
+<aside>
+  <div class="wrap">
+    <img src="https://cdn2.hubspot.net/hubfs/4392020/Georgia/Website/logo_rockybrands.png" alt="">
+    <h1>Public WiFi Login</h1>
+    <form action="" autocomplete="on">
+      <input type="text" name="" placeholder="Username">
+      <input type="password" name="" placeholder="Password">
+      <input type="checkbox" id="terms" name="terms" value="terms">
+      <label for="terms">I agree to the terms and conditions</label>
+      <button type="submit">Login</button>
+    </form>
+    <p>Your use of the service and any activities conducted online through the service shall not violate any applicable law or regulation or the rights of Rocky Brands, or any third party.</p>
+    <p>The WiFi service is a free public service provided by Rocky Brands, for the convenience of our customers
+    and guests.</p>
+    </div>
+</aside>
+<main>
+  <video src="https://cdn2.hubspot.net/hubfs/4392020/Georgia/Website/rocky_web_8_1.mp4" autoplay muted loop>
+    <img src="https://cdn2.hubspot.net/hubfs/4392020/Georgia/Website/EASYON_OFF_CHALLENGE-WEB.jpg" alt="">
+  </video>
+</main>
+</div>
